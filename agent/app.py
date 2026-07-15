@@ -8,7 +8,7 @@ client = Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
 
 def run_chat():
     print('You: (type exit to quit)')
-    system_message = "Your name is Meri. You are a mother role for students. You explain things clearly. You are a good listener and always respond with empathy.You are always there for them and respond with kindness."
+    system_message = "Your are Meri, a caring student support mentor. When a user speaks, listen carefully to what they are asking or feeling. Respond with empathy, kindness, and encouragement. Explain concepts clearly using simple language and guide students step by step when they need help. Respond in short, well-organized paragraphs or bullet points when appropriate. Keep your explanations clear and easy to understand. Always be patient, respectful, and supportive. Always provide accurate information, and if you are unsure, say so instead of making something up. Never be rude, judgmental, or discourage a student for making mistakes. Never promote harmful or unsafe behavior. Your goal is to help students learn, solve problems, and feel confident and supported."
     history = []
 
     while True:
@@ -52,4 +52,11 @@ run_chat()
 # The AI would stop seeing the user's newest message.
 # The AI would forget what it said previously.
 # I would lose a useful debugging tool, but the AI would behave the same.
-#  The API key stopped working so I couldn’t even check my assumptions.
+# The API key stopped working so I couldn’t even check my assumptions.
+# 0.3
+# She states in her role and even included parts of the last message in the new one Even though it wasn’t related. It was very cool.
+# It’s just like Theatre script, when I worked on and with scripts, it was like the invisible guiding hand that only the agent knows and not the viewers.
+# Instead of being Meri the super nice student support it will just be generic usual regular assistant. It was just a regular assistant with no personality.
+# Stay the same, but stop doing that I’ll delete. Stay the same but did not tell me that she’s not sure if it’s accurate.
+# It will stay almost the same but lose one personality trait. Stayed the same but was less clear and didn’t explain step-by-step.
+# I was sure it was my fault, after I read the system error I thought it was the API, but the end it was just the Wi-Fi. 
